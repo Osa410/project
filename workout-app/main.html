@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Workout App</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>Main Page</h1>
+
+	<div class=mainContainer>
+		<img src="icons8-exercise-50.png" id=logo1>
+		<div class=subSide>
+			
+			<button class=options onclick="excerciseManual()" id=excerciseManual>Excercise Manual</button>
+
+			<button class=options onclick="recordExcercise()" id=recordExcercise>Record Excercise</button>
+
+			<button class=options onclick="showTable()" id=showExcercises>show previous excercises</button>
+		
+			
+
+
+
+			<button class=options onclick="switchToLogin()"> sign out</button>
+		<div class=subSideBottom>
+			<h4>About us</h4>
+			<p> This is an excercise app used to learn and record excercises you learnt</p>
+
+			<p id=user> </p>
+		</div>
+			
+			</div>
+		<div class=subMain id=mainPage>
+			
+		</div>
+		
+		<button id=prev onclick="loadMain()">Back</button>
+		
+		
+	</div>
+
+	<div class=showExcercise>
+		<img src=icons8-close-50.png id=closeX>
+
+		
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
